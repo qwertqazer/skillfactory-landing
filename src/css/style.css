@@ -255,14 +255,25 @@ h1 {
 
 .descriptions-buttons {
   max-width: 205px;
+  align-items: center;
+  display: flex;
 }
 
 .project-nav-desc-button {
-  padding: 5px;
+  background: none;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.project-nav-desc-button:last-child {
+  transform: rotate(180deg);
+  padding-right: 0;
 }
 
 .projects-block__right {
   padding-left: 50px;
+  width: 100%;
+  max-width: 679px;
 }
 
 .right-block__buttons {
@@ -716,7 +727,212 @@ input[id=q-fname]::-webkit-input-placeholder {
   margin: 0 auto;
 }
 
+
 iframe {
   width: 100%;
   height: 100%;
+}
+
+.right-block__image {
+  width: 100%;
+}
+
+.projects-block__main-text-1 {
+  display: none;
+}
+
+.first-checkbox-1 {
+  display: none;
+}
+
+.video-containter-1 {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapper {
+    max-width: 1300px;
+    padding: 0 18px;
+  }
+
+  .header__container__menu, .header-button {
+    display: none;
+  }
+
+  ._buttons {
+    width: 100%;
+  }
+
+  ._buttons:last-child {
+    margin: 10px 0;
+  }
+  
+  .main-block__body {
+    max-width: 100%;
+  }
+
+  .projects-block__right {
+    padding-left: 0;
+    order: 1;
+    max-width: 100%;
+  }
+
+  .projects-block__left {
+    order: 2;
+    max-width: 100%;
+  }
+
+  .right-block__images {
+    display: block;
+    align-items: center;
+  }
+
+  .right-block__image {
+    width: 100%;
+  }
+
+  .projects-title, .projects-text {
+    text-align: center;
+  }
+
+  .right-block__buttons, .descriptions-buttons {
+    display: none;
+  }
+
+  .projects-block__left {
+    width: 100%;
+  }
+
+  .projects-descriptions {
+    width: 100%;
+  }
+
+  .projects-block__main-text-1 {
+    display: block;
+  }
+  .projects-block__main-text {
+    display: none;
+  }
+
+  .form-block {
+    display: block;
+    width: 100%;
+  }
+
+  .form-block .input {
+    margin: 30px 0; 
+  }
+
+  .form-block input[type=submit] {
+    width: 100%;
+  }
+
+  .first-checkbox-1 {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  .first-checkbox {
+    display: none;
+  }
+
+  .video {
+    max-width: 100%;
+    position: static;
+    transform: none;
+  }
+
+  .padding-257 {
+    padding-bottom: 50px;
+  }
+
+  .card-block {
+    width: 100%;
+    margin: 70px auto;
+  }
+
+  .card-image {
+    width: 100%;
+  }
+
+  .page-3 {
+    background-color: #131313;
+    padding-bottom: 30px;
+  }
+
+  .page-3-text {
+    color: white;
+  }
+
+  .card-descriptions-block {
+    bottom: -20%;
+    min-width: 80%;
+    margin-left: 0;
+  }
+
+  .page-4 {
+    padding-bottom: 40px;
+  }
+
+  .line {
+    padding-top: 30px;
+  }
+
+  .fantasies-main-block__right, .fantasies-button {
+    display: none;
+  }
+
+  .fantasies-title {
+    text-align: center;
+  }
+
+  .page-5 {
+    background: #fff;
+  }
+
+  .video-containter-1 {
+    display: block;
+  }
+
+  .fantasies-main-block__left {
+    max-width: 100%;
+  }
+
+  .page-7 {
+    background: #131313;
+  }
+
+  .clients-card {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+
+  .q-form-block {
+    padding-top: 0px;
+  }
+
+  .q-form-container {
+    position: static;
+    background-color: #131313;
+  }
+
+  .q-form-text-div {
+    padding: 0;
+  }
+
+  .name-phone-inputs {
+    display: block;
+  }
+
+  .name-phone-inputs .input {
+    margin-bottom: 46px;
+  }
+
+  input[type=submit] {
+    width: 100%;
+  }
+
+  footer {
+    display: none;
+  }
 }
